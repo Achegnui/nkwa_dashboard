@@ -16,35 +16,33 @@ body {
           flex-direction: row;
   place-content: space-between;
   background-color: white;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding-left: 10em;
   padding-right: 10em;
   -webkit-box-shadow: 0px 0px 8px #e9e2e2;
           box-shadow: 0px 0px 8px #e9e2e2;
 }
 
-.header .logo {
+.logo {
   padding-top: 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header .logo p {
+.logo p {
   padding-left: 0.3em;
   color: var(--primary-color);
   font-family: PoetsenOne;
 }
 
-.header .box {
+.box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 2px;
 }
 
-.header .box button {
+.box button {
   border: none;
   color: white;
   background-color: var(--primary-color);
@@ -57,7 +55,20 @@ body {
   cursor: pointer;
 }
 
-.header .box img {
+.button {
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 1em;
+  padding: 0.5em;
+  width: 5em;
+  font-family: PoetsenOne;
+  height: 2.2em;
+  margin-top: 2.3em;
+  cursor: pointer;
+}
+
+.button img {
   margin-left: 0.7em;
 }
 
@@ -71,23 +82,23 @@ body {
   margin-right: 10em;
 }
 
-.main1 .info {
+.info {
   margin-top: 6.5em;
   font-family: PoetsenOne;
 }
 
-.main1 .info h1 {
+.info h1 {
   font-weight: bolder;
   font-size: 5em;
   line-height: 1em;
 }
 
-.main1 .info p {
+.info p {
   color: grey;
   line-height: 10px;
 }
 
-.main1 .info a {
+.info a {
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
@@ -104,6 +115,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: -1em;
 }
 
 .footer h1 {
@@ -133,5 +145,100 @@ body {
   width: unset;
   cursor: pointer;
   margin-left: 50px;
+  margin-bottom: 2em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 0em;
+}
+
+footer p {
+  text-align: center;
+  padding: 1em 0em 1em 0em;
+  font-family: PoetsenOne;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .main1 {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .main1 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+@media (max-width: 1245px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 930px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 220%;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    margin-right: 0%;
+  }
+  .header {
+    width: 365%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .main1 {
+    place-content: space-between;
+    margin-bottom: 3em;
+  }
+  .main1 img {
+    width: 25em;
+  }
+  .info {
+    padding-right: 20em;
+    padding-left: 3em;
+  }
+  .infos {
+    margin-bottom: 7em;
+  }
+  .infos h1 {
+    font-size: 35px;
+    width: 70%;
+  }
+  .footer img {
+    padding-left: -5em;
+    width: 40em;
+  }
+  footer {
+    width: 70em;
+  }
 }
 /*# sourceMappingURL=index.css.map */

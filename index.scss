@@ -11,7 +11,6 @@ body {
   flex-direction: row;
   place-content: space-between;
   background-color: white;
-  flex-wrap: wrap;
   padding-left: 10em;
   padding-right: 10em;
   box-shadow: 0px 0px 8px rgb(233, 226, 226);
@@ -31,6 +30,18 @@ body {
 .box {
   display: flex;
   padding-bottom: 2px;
+}
+.box button {
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 1em;
+  padding: 0.5em;
+  width: 5em;
+  font-family: PoetsenOne;
+  height: 2.2em;
+  margin-top: 2.3em;
+  cursor: pointer;
 }
 
 .button {
@@ -89,6 +100,7 @@ body {
 
 .footer {
   display: flex;
+  margin-bottom: -1em;
 }
 
 .footer h1 {
@@ -96,6 +108,7 @@ body {
   margin-right: 300px;
   padding-top: 80px;
   margin-left: 50px;
+  
 }
 
 .footer p {
@@ -118,6 +131,17 @@ body {
   width: unset;
   cursor: pointer;
   margin-left: 50px;
+  margin-bottom: 2em;
+}
+footer{
+  background-color: black;
+  color: white;
+  margin-top: 0em;
+  p{
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+    font-family: PoetsenOne;
+  }
 }
 
 /* Responsive Styles */
@@ -144,4 +168,72 @@ body {
     margin-left: 0.5em;
     margin-right: 0.5em;
   }
+}
+
+@media (max-width: 1245px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 930px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 220%;
+  }
+  // .main1{
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   text-align: center;
+  // }
+}
+
+@media (max-width: 300px) {
+  body{
+    margin-right: 0%;
+  }
+  .header {
+    width: 365%;
+    display: flex;
+    flex-direction: row;
+    // .box img{
+    //   padding-right: 3em;
+    // }
+    // .box button{
+    //   padding-left: 2em;
+    // }
+  }
+  .main1 {
+    place-content: space-between;
+    margin-bottom: 3em;
+  }
+  .main1 img{
+    width: 25em;
+  }
+  .info{
+    padding-right: 20em;
+    padding-left: 3em;
+  }
+  .infos{
+    margin-bottom: 7em;
+  }
+  .infos h1{
+    font-size: 35px;
+    width: 70%;
+    
+  }
+  .footer img{
+    padding-left: -5em;
+    width: 40em;
+  }
+  footer{
+    width: 70em;
+  }  
 }
