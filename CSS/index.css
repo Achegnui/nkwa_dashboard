@@ -213,7 +213,7 @@ footer p {
 
 @media (max-width: 390px) {
   body {
-    margin-right: 0%;
+    margin-right: 0em;
   }
   .header {
     height: 40px;
@@ -321,8 +321,13 @@ footer p {
     margin-top: 1.4em;
     cursor: pointer;
   }
+  footer {
+    margin-bottom: -2em;
+  }
   footer p {
     font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 2em;
   }
 }
 /*# sourceMappingURL=index.css.map */
