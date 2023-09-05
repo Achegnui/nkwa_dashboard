@@ -29,6 +29,11 @@ body {
   display: flex;
 }
 
+.logo img {
+  width: 3em;
+  height: 3em;
+}
+
 .logo p {
   padding-left: 0.3em;
   color: var(--primary-color);
@@ -53,6 +58,11 @@ body {
   height: 2.2em;
   margin-top: 2.3em;
   cursor: pointer;
+}
+
+.box img {
+  width: 3em;
+  height: 4em;
 }
 
 .button {
@@ -206,39 +216,113 @@ footer p {
     margin-right: 0%;
   }
   .header {
-    width: 365%;
+    height: 40px;
+    width: 95%;
+  }
+  .header .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .header .logo p {
+    font-size: 10px;
+  }
+  .header .box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    padding-bottom: 2px;
+  }
+  .header .box button {
+    border: none;
+    color: white;
+    font-size: 8px;
+    background-color: var(--primary-color);
+    border-radius: 1em;
+    padding: 0.5em;
+    width: 5em;
+    font-family: PoetsenOne;
+    height: 2.2em;
+    margin-top: 2.3em;
+    cursor: pointer;
+  }
+  .header .box img {
+    width: 30px;
+    height: 40px;
   }
   .main1 {
-    place-content: space-between;
-    margin-bottom: 3em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main1 .info {
+    margin: -3em 0px 0px 70px;
+  }
+  .main1 .info h1 {
+    font-size: 50px;
+  }
+  .main1 .info p {
+    font-size: 15px;
+  }
+  .main1 .info a {
+    border: none;
+    color: white;
+    font-size: 12px;
+    background-color: var(--primary-color);
+    border-radius: 4em;
+    padding: 1em 1em 0.3em 1.5em;
+    width: 5.8em;
+    font-family: PoetsenOne;
+    height: 2.2em;
+    margin-top: 1.4em;
+    cursor: pointer;
   }
   .main1 img {
-    width: 25em;
+    margin-top: 50px;
   }
-  .info {
-    padding-right: 20em;
-    padding-left: 3em;
-  }
-  .infos {
-    margin-bottom: 7em;
-  }
-  .infos h1 {
-    font-size: 35px;
-    width: 70%;
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .footer img {
-    padding-left: -5em;
-    width: 40em;
+    height: 20em;
   }
-  footer {
-    width: 83em;
+  .footer h1 {
+    font-size: 20px;
+    width: 90%;
+    margin-top: -2em;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+  .footer a {
+    border: none;
+    color: white;
+    font-size: 12px;
+    background-color: var(--primary-color);
+    border-radius: 4em;
+    padding: 1em 1em 0.3em 1.5em;
+    width: 5.8em;
+    font-family: PoetsenOne;
+    height: 2.2em;
+    margin-top: 1.4em;
+    cursor: pointer;
+  }
+  footer p {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=index.css.map */
