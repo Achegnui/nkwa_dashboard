@@ -1,6 +1,11 @@
 :root {
   --primary-color: #2fb18f;
 }
+@font-face {
+  font-family: "PoetsenOne";
+  src: url(poetsenone/PoetsenOne-v1/PoetsenOne-Regular.ttf);
+  font-style: normal;
+}
 
 body {
   margin: 0px;
@@ -20,9 +25,9 @@ body {
   padding-top: 0.5em;
   display: flex;
 }
-.logo img{
+.logo img {
   width: 3em;
-  height: 3em
+  height: 3em;
 }
 
 .logo p {
@@ -47,7 +52,7 @@ body {
   margin-top: 2.3em;
   cursor: pointer;
 }
-.box img{
+.box img {
   width: 3em;
   height: 4em;
 }
@@ -116,7 +121,6 @@ body {
   margin-right: 300px;
   padding-top: 80px;
   margin-left: 50px;
-  
 }
 
 .footer p {
@@ -141,11 +145,11 @@ body {
   margin-left: 50px;
   margin-bottom: 2em;
 }
-footer{
+footer {
   background-color: black;
   color: white;
   margin-top: 0em;
-  p{
+  p {
     text-align: center;
     padding: 1em 0em 1em 0em;
     font-family: PoetsenOne;
@@ -204,17 +208,17 @@ footer{
 }
 
 @media (max-width: 390px) {
-  body{
+  body {
     margin-right: 0em;
   }
-  .header{
+  .header {
     height: 40px;
     width: 95%;
-    .logo img{
+    .logo img {
       width: 30px;
       height: 30px;
     }
-    .logo p{
+    .logo p {
       font-size: 10px;
     }
     .box {
@@ -224,7 +228,7 @@ footer{
     .box button {
       border: none;
       color: white;
-      font-size:8px;
+      font-size: 8px;
       background-color: var(--primary-color);
       border-radius: 1em;
       padding: 0.5em;
@@ -234,26 +238,26 @@ footer{
       margin-top: 2.3em;
       cursor: pointer;
     }
-    .box img{
+    .box img {
       width: 30px;
       height: 40px;
-    }    
-  } 
-  .main1{
+    }
+  }
+  .main1 {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    .info{
+    .info {
       margin: -3em 0px 0px 70px;
     }
-    .info h1{
+    .info h1 {
       font-size: 50px;
     }
-    .info p{
+    .info p {
       font-size: 15px;
     }
-    .info a{
+    .info a {
       border: none;
       color: white;
       font-size: 12px;
@@ -267,26 +271,26 @@ footer{
       cursor: pointer;
     }
   }
-  .main1 img{
+  .main1 img {
     margin-top: 50px;
-  } 
-  .footer{
+  }
+  .footer {
     display: flex;
     flex-direction: column;
-    img{
-      height: 20em; 
+    img {
+      height: 20em;
     }
-    h1{
+    h1 {
       font-size: 20px;
       width: 90%;
       margin-top: -2em;
       margin-left: 30px;
     }
-    p{
+    p {
       font-size: 10px;
       margin-left: 30px;
     }
-    a{
+    a {
       border: none;
       color: white;
       font-size: 12px;
@@ -300,12 +304,12 @@ footer{
       cursor: pointer;
     }
   }
-  footer{
-    p{
+  footer {
+    p {
       font-size: 15px;
       padding-top: 25px;
       padding-bottom: 2em;
     }
-    margin-bottom: -2em; 
+    margin-bottom: -2em;
   }
 }

@@ -2,6 +2,12 @@
   --primary-color: #2fb18f;
 }
 
+@font-face {
+  font-family: "PoetsenOne";
+  src: url(poetsenone/PoetsenOne-v1/PoetsenOne-Regular.ttf);
+  font-style: normal;
+}
+
 body {
   margin: 0px;
 }
