@@ -201,7 +201,7 @@ footer p {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 390px) {
   body {
     margin-right: 0%;
   }
@@ -238,7 +238,7 @@ footer p {
     width: 40em;
   }
   footer {
-    width: 70em;
+    width: 83em;
   }
 }
 /*# sourceMappingURL=index.css.map */
